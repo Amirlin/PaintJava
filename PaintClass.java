@@ -65,16 +65,16 @@ public class PaintClass extends JFrame
         // Make all the buttons in makeMeButtons by passing the
         // button icon.
 
-        brushBut = makeMeButtons("/home/nafila/Downloads/brush.png", 1);
-        lineBut = makeMeButtons("/home/nafila/Downloads/line.png", 2);
-        ellipseBut = makeMeButtons("/home/nafila/Downloads/ellipse.png", 3);
-        rectBut = makeMeButtons("/home/nafila/Downloads/rectangle.png", 4);
+        brushBut = makeMeButtons("./src/brush.png", 1);
+        lineBut = makeMeButtons("./src/line.png", 2);
+        ellipseBut = makeMeButtons("./src/ellipse.png", 3);
+        rectBut = makeMeButtons("./src/rectangle.png", 4);
 
         // Make all the buttons in makeMeColorButton by passing the
         // button icon and true for stroke color or false for fill
 
-        strokeBut = makeMeColorButton("/home/nafila/Downloads/Stroke.png", 5, true);
-        fillBut = makeMeColorButton("./src/Fill.png", 6, false);
+        strokeBut = makeMeColorButton("./src/Stroke.png", 5, true);
+        fillBut = makeMeColorButton("./src/fill.png", 6, false);
 
         // Add the buttons to the box
 
